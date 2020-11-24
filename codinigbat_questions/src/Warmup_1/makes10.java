@@ -1,0 +1,17 @@
+package Warmup_1;
+
+public class makes10 {
+
+	public static void main(String[] args) {
+		//Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+
+	}
+
+	public boolean makes10(int a, int b) {
+		  if (a+b==10 || a==10 || b==10) {
+		    return true;
+		  }else {
+		    return false;
+		  }
+		}
+}
